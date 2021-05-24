@@ -3,7 +3,7 @@ image: gitpod/workspace-full
 tasks:
   - command: sudo docker-up
     name: Docker daemon
-  - command: docker
+  - command: echo Hello
 
 vscode:
   extensions:
